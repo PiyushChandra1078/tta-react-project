@@ -1,0 +1,62 @@
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 0 5rem;
+  border: 2px solid black;
+  height: 6vh;
+  border-bottom: none;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.logo {
+  font-size: 24px;
+  flex-grow: 1;
+}
+
+.links {
+  text-align: right;
+  flex-grow: 1;
+}
+.links a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* Right-side border styles */
+.header-border {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 75%;
+  width: 2px;
+  background-color: black;
+  content: "";
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  header {
+    margin: 0;
+    width: 90%;
+    padding: 10px;
+  }
+  .links {
+    text-align: center;
+  }
+  .links a {
+    font-size: 1rem;
+  }
+  .logo {
+    font-size: 20px;
+    text-align: left;
+    font-size: 1rem;
+  }
+  .header-border {
+    right: 55%;
+  }
+}

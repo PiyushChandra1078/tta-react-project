@@ -1,0 +1,26 @@
+footer {
+  display: flex;
+  margin: 0 5rem;
+  border: 2px solid black;
+  height: 25vh;
+}
+
+.Fcontainer-left {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    margin: 0;
+    width: 90%;
+    padding: 10px;
+  }
+
+  .Fcontainer-left {
+    text-align: center;
+    font-size: 1rem;
+  }
+}
