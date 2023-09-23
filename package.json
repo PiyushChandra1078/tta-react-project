@@ -1,5 +1,5 @@
 {
-  "name": "tttReactProjectUI",
+  "name": "tttreactprojectui",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -34,5 +34,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/PiyushChandra1078/ttt-react-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiyushChandra1078/ttt-react-project/issues"
+  },
+  "homepage": "https://github.com/PiyushChandra1078/ttt-react-project#readme",
+  "description": ""
 }
